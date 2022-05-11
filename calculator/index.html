@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="./index.css">
+
+    </head>
+
+    <body>
+
+
+        <table class="main-table">
+            <tbody>
+                <tr>
+                    <td colspan="4"><input type="text" id="inputext"></td>
+                </tr>
+                <tr class="row1">
+                    <th><button onclick="clr()">AC</button></th>
+                    <th><button onclick="del()">DEL</button></th>
+                    <th><button onclick="calculate('%')">%</button></th>
+                    <th><button onclick="calculate('/')">➗</button></th>
+
+                </tr>
+                <tr>
+                    <td><button onclick="calculate(7)">7</button></td>
+                    <td><button onclick="calculate(8)">8</button></td>
+                    <td><button onclick="calculate(9)">9</button></td>
+                    <th><button onclick="calculate('*')">✖</button></th>
+                </tr>
+                <tr>
+                    <td><button onclick="calculate(4)">4</button></td>
+                    <td><button onclick="calculate(5)">5</button></td>
+                    <td><button onclick="calculate(6)">6</button></td>
+                    <th><button onclick="calculate('-')">➖</button></th>
+
+                </tr>
+                <tr>
+                    <td><button onclick="calculate(1)">1</button></td>
+                    <td><button onclick="calculate(2)">2</button></td>
+                    <td><button onclick="calculate(3)">3</button></td>
+                    <th><button onclick="calculate('+')">➕</button></th>
+                </tr>
+                <tr>
+                    <td><button onclick="calculate(0)">0</button></td>
+                    <td><button onclick="calculate('.')">.</button></td>
+                    <td><button onclick="calculate('00')">00</button></td>
+                    <th><button onclick="Result('=')">=</button></th>
+                </tr>
+                <colgroup>
+                    <col span="3">
+                    <col span="1" style="background-color: rgba(210, 10, 183,
+                        0.418);">
+                </colgroup>
+
+            </tbody>
+
+        </table>
+        <script src="./index.js"></script>
+
+
+
+    </body>
+</html>
